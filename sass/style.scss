@@ -1,0 +1,247 @@
+
+// GLOBAL
+
+body {
+    margin: 0;
+    
+}
+
+
+
+
+
+
+
+// WELCOME SECTION
+
+.welcome {
+    height: 45vh;
+    position: relative;
+    background-image: url('https://i.postimg.cc/28scnfsB/pexels-hendrik-b-744323-1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    
+    .navigation {
+
+        display: flex;
+        padding: 25px 0 0 0;
+        align-items: center;
+
+        h3 {
+            color: goldenrod;
+        }
+    
+        ul {
+            display: flex;
+            list-style-type: none;
+            li {
+                a {
+                    padding: 0 5px;
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .headline-box {
+        color: white;
+        margin-top: 100px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3 {
+            margin: 0;
+            font-size: 30px;
+            font-weight: lighter;
+            font-style: italic;
+        }
+        h1 {
+            font-size: 50px;
+        }
+
+        a {
+                
+            color: white;
+            text-decoration: none;
+            background-color: goldenrod;
+            padding: 15px 25px;
+
+        }
+    }
+    
+}
+
+// SECTION SERVIECES
+
+.section {
+    
+    margin: 0;
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+
+    .headline-small {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3 {
+            margin: 50px 0 0 0;
+            font-size: 30px;
+        }
+        h5 {
+            margin: 10px 0 40px 0;
+            font-style: italic;
+            color: darkgray;
+        }
+    }
+
+    .content {
+        margin: 20px 0 0 0;
+        max-width: 800px;
+
+        .box {
+            margin: 0 0 60px 0;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            h5 {
+                margin: 12px 0;
+                font-size: 18px;
+                //font-weight: bolder;
+            }
+
+            p {
+                margin: 0;
+                color: darkgray;
+            }
+
+            .icon-container {
+                border: solid; 
+                border-width: 3.5px;
+                border-radius: 50%;
+                border-color: goldenrod;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                width: 60px;
+                height: 60px;
+                i {                   
+                    color: goldenrod;
+                    font-size: 30px;                
+                }
+            }
+        }
+    }
+
+
+
+}
+
+
+// OUR PORTFOLIO
+
+.our-portfolio {
+    background-color: rgb(247, 247, 247);
+
+    .container-o-p {
+        margin: 20px 0 65px 0;
+        max-width: 800px;
+    
+        .card-o-p {
+            background-color: white;
+            padding: 0;
+            margin: 25px;
+            
+            .photo-container{
+                margin: 0;
+                height: 200px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    overflow: hidden;
+                }
+            }
+
+            .discription-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+
+                h5 {
+                    margin: 20px 0 3px 0;
+                    font-size: 18px;
+                }
+                p {
+                    margin: 0 0 20px 0;
+                    color: darkgray;
+                    font-size: 14px;
+                }
+            }
+
+
+        }
+    }
+}
+
+// FOOTER
+
+footer {
+    margin: 0;
+    padding: 0;
+    
+    
+    ul {
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        justify-content: center;
+        
+        li {
+            margin: 0;
+            padding: 0;
+
+            font-size: 0;  
+            margin: 0;
+            
+            i {
+                
+                font-size: 15px;
+                background: black;
+                width: 20px;
+                height: 20px;
+                
+                color: #fff;
+                border-radius: 50%;
+                margin: 30px 10px;
+                padding: 5px 0 0 10px;
+            }
+            
+            
+        }
+    }
+    
+}
